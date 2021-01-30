@@ -5,8 +5,8 @@
 import Register
 
 #
-#   Arbitay maximum number of lines in the store.  The SSEM has 32 store lines
-#   but this implmentation allows for a larger maximum number of lines.
+#   Arbitrary maximum number of lines in the store.  The SSEM has 32 store lines
+#   but this implementation allows for a larger maximum number of lines.
 #
 MAX_STORE_SIZE = 1024
 

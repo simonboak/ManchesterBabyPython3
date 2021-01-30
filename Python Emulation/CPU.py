@@ -6,7 +6,7 @@ import Register
 import StoreLines
 
 #
-#   Dictionary containing the instruction set, the associted 'mnemonic' and the 'description' of the instruction.
+#   Dictionary containing the instruction set, the associated 'mnemonic' and the 'description' of the instruction.
 #
 #   Instructions are stored in a list with each entry being a dictionary item.  The dictionary item contains the
 #   SSEM opcode for instruction along with information about the instruction:
@@ -100,7 +100,7 @@ class CPU:
         return(Register.Register(self.ReverseBits((a + b) & 0xffffffff, 32)))
 
     def Sub(self, registerA, registerB):
-        '''Subtract registerB from registerA and return the result as a new Register objectr.'''
+        '''Subtract registerB from registerA and return the result as a new Register object.'''
         a = self.ReverseBits(registerA.Value, 32)
         b = self.ReverseBits(registerB.Value, 32)
         return(Register.Register(self.ReverseBits((a - b) & 0xffffffff, 32)))
