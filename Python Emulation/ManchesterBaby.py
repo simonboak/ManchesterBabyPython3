@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 #   Manchester Baby simulator
 #
@@ -64,7 +64,7 @@ def Assembler(fileName, storeLines):
                 else:
                     i = next((i for i, x in enumerate(instructions) if (x['mnemonic'] == m)), None)
                     if (i == None):
-                        print 'Cannot process line {}: {}'.format(lineNumber, line)
+                        print('Cannot process line {}: {}'.format(lineNumber, line))
                         exit()
                     else:
                         opcode = instructions[i]['opcode']

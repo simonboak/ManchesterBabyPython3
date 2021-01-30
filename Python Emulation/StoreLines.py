@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 #   Class implementing the store lines for the Manchester Baby.
 #
@@ -66,4 +66,4 @@ if (__name__ == '__main__'):
         sl.GetLine(500)
     except IndexError:
         pass
-    print 'StoreLines tests completed successfully.'
+    print('StoreLines tests completed successfully.')

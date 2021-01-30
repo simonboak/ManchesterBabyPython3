@@ -1,4 +1,9 @@
-# ManchesterBaby
+# ManchesterBaby - Python 3 port by Simon Boak
+Some minor changes to get the emulator running under Python 3.
+
+Forked from the original project here: https://github.com/NevynUK/ManchesterBabyPython
+
+## Original Readme:
 Manchester Baby (Small Scale Experimental Machine)
 
 The [Manchester Small Scale Experimental Machine](https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine) was the worlds first computer capable of executing a stored program.  The 32-bit architecture utilised an instruction set using only 3 bits allowing 8 possible instructions.  The program was stored in 32 memory locations (or store lines) with both data and program sharing storage (von Neumann architecture).
